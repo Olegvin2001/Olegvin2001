@@ -1,5 +1,5 @@
-<a style="color:#DC006FFF;">Тест</a>
-<a style="color:#DC006FFF; font-size:30px; font-weight: 500; text-align: center;">Олег Винокуров</a>
+
+#Олег Винокуров
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=&pause=1000&color=DC006F&center=true&vCenter=true&width=435&lines=Bitrix+разработчик+|+SEO-специалист;Специалист+информационной+безопасности)](https://git.io/typing-svg)
 
 ![Bitrix разработчик | SEO специалист](https://arturssmirnovs.github.io/github-profile-readme-generator/images/banner.png)
