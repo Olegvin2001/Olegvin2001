@@ -202,7 +202,7 @@
   </a>      
   </p>
   <br>
- <h4> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Blue%20Heart.png" alt="Blue Heart" width="25" height="25" /> Проект: "Сайт выкупа автомобилей" </h4>
+ <h4> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Alien.png" alt="Alien" width="25" height="25" /> Проект: "Сайт выкупа автомобилей" </h4>
     <ul>
       <li> 🔗 Ссылка на сайт: <a href="https://avto-vykup-nn.ru/">Эвакуатор</a></li>
     </ul>
@@ -212,6 +212,7 @@
       <li> Создание рекламной кампании в Я.Директ</li>
       <li> Сбор ключевых фраз, настройка групп и объявлений, промо и аналитика</li>
     </ul>
+    Онлайн выдача по главному запросу: <a href="https://yandex.ru/search/?text=%D0%A1%D1%80%D0%BE%D1%87%D0%BD%D1%8B%D0%B9+%D0%B2%D1%8B%D0%BA%D1%83%D0%BF+%D0%B0%D0%B2%D1%82%D0%BE&lr=47&clid=2270455&win=701&within=0&rstr=-47"> реклама в поиске <a>
     <h5>🔗 Ссылка на результаты</h5>
     <br>
     <p align="center">
