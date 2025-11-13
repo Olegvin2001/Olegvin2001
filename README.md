@@ -4,7 +4,7 @@
 </p>
 <p align="center">
   <a href="https://t.me/VinDetail">
-    <img src="https://readme-typing-svg.herokuapp.com?font=&pause=1000&color=DC006F&center=true&vCenter=true&width=547&lines=Bitrix+разработчик+|+SEO-специалист;Специалист+информационной+безопасности" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=&pause=1000&duration=7500&color=DC006F&center=true&vCenter=true&width=547&lines=Bitrix+разработчик+|+SEO-специалист;Специалист+информационной+безопасности" alt="Typing SVG" />
   </a>
 </p>
 
