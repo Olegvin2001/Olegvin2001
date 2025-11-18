@@ -113,6 +113,7 @@
       <h3>📕 Личный опыт | Фриланс</h3>
     </summary>
 Самостоятельный запуск и ведение проектов | Полный цикл запуска и сопровождения сайтов:
+    <!-- Медицинский центр -->
     <h4 id="lorbor"> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Face%20with%20Medical%20Mask.png" alt="Face with Medical Mask" width="25" height="25" /> Проект: "Сайт медицинского отоларингологического центра" </h4>
     <ul>
       <li> Роль: Менеджер проекта, Bitrix разработчик, SEO-специалист</li>
@@ -155,6 +156,9 @@
   </a>    
 </p>
     <br>
+    <!-- END Медицинский центр -->
+
+    <!-- Эвакуатор -->
  <h4 id="evik"> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Blue%20Heart.png" alt="Blue Heart" width="25" height="25" /> Проект: "Сайт компании по услугам эвакуации автомобилей" </h4>
     <ul>
       <li> Роль: Менеджер проекта, Bitrix разработчик, SEO-специалист</li>
@@ -203,6 +207,9 @@
   </a>      
   </p>
   <br>
+   <!--END Эвакуатор -->
+
+    <!-- Автовыкуп -->
  <h4 id="vykup"> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Alien.png" alt="Alien" width="25" height="25" /> Проект: "Сайт выкупа автомобилей" </h4>
     <ul>
       <li> 🔗 Ссылка на сайт: <a href="https://avto-vykup-nn.ru/">Автовыкуп</a></li>
@@ -215,6 +222,7 @@
     </ul>
     Онлайн выдача по главному запросу: <a href="https://yandex.ru/search/?text=%D0%A1%D1%80%D0%BE%D1%87%D0%BD%D1%8B%D0%B9+%D0%B2%D1%8B%D0%BA%D1%83%D0%BF+%D0%B0%D0%B2%D1%82%D0%BE&lr=47&clid=2270455&win=701&within=0&rstr=-47"> реклама в поиске <a>
     <h5>🔗 Ссылка на результаты: <a href="#rezvykup">*Клик*</a></h5>
+      <!--END Автовыкуп -->
     <br>
     <p align="center">
   <a href="https://avto-vykup-nn.ru/">
@@ -230,7 +238,8 @@
     <img width="500px" src="https://github.com/Olegvin2001/Olegvin2001/blob/main/.github/images/avto-vykup-nn.ru_uslugi_avtovykupa_vykup_avtomobiley_vykup_avto_posle_dtp_(iPhone%2014%20Pro%20Max).png" alt="Страница услуг мобильная" />
   </a> 
   </p>
-   <h4> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Money-Mouth%20Face.png" alt="Money-Mouth Face" width="25" height="25" /> Landing на конструкторах: "Сайты автовыкупа" </h4>
+      <!-- Одностраничники -->
+   <h4 id="landing"> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Money-Mouth%20Face.png" alt="Money-Mouth Face" width="25" height="25" /> Landing на конструкторах: "Сайты автовыкупа" </h4>
     <ul>
       <li> 🔗 Ссылка на сайты автовыкупов:
         <ul>
@@ -241,7 +250,8 @@
     </ul>
       Создание сайтов на конструкторах для последующего привлечения рекламного трафика и получения заявок с сайта. Сделана интеграция получения уведомления о заявках в ТГ. Настроены системы аналитики.
       <br>
-      <h5>🔗 Ссылка на результаты: <a href="#rezvykup">*Клик*</a></h5>
+      <h5>🔗 Ссылка на результаты: <a href="#rezlending">*Клик*</a></h5>
+      <!--END Одностраничники -->
   </details>
 </details> 
 <details open> 
@@ -403,6 +413,23 @@
 Чистая ежемесячная прибыль клиента после вычета расходов на рекламу и ведение составляет от 80 000 до 240 000 рублей
 <!-- END Автовыкуп --> 
 
+<!-- Одностраничники -->
+<h4 id="rezlanding"> 4. Кейс: Запуск одностраничных сайтов <a href="#lending">автовыкупа</a> </h4>
+Из-за необходимости получения заявок при создании основных сайтов были созданы 2 одностраничных сайта на конструкторе от Т-Банка, настроены формы и уведомления в ТГ. 
+Запущена реклама Я.Директ с результатами:<br>
+<a href="https://auto-vykup-nn.ru/">auto-vykup-nn.ru</a>:
+<p align="center">
+  <img width="800px" src="https://github.com/Olegvin2001/Olegvin2001/blob/main/.github/images/directArtem.png" alt="Статистика Direct Артём" /> 
+</p>
+<br>
+<a href="https://auto-vykup-nn.ru/">auto-vykup-nn.ru</a>:
+<p align="center">
+  <img width="800px" src="https://github.com/Olegvin2001/Olegvin2001/blob/main/.github/images/directSerg.png" alt="Статистика Direct Сергей" /> 
+</p>
+<br>
+
+
+<!-- END Одностраничники -->
   <h3><? WEB ?></h3>
 
 </details> 
