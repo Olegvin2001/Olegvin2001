@@ -415,14 +415,14 @@
 
 <!-- Одностраничники -->
 <h4 id="rezlanding"> 4. Кейс: Запуск одностраничных сайтов <a href="#lending">автовыкупа</a> </h4>
-Из-за необходимости получения заявок при создании основных сайтов были созданы 2 одностраничных сайта на конструкторе от Т-Банка, настроены формы и уведомления в ТГ. 
+Из-за необходимости получения заявок при создании основных сайтов были созданы 2 одностраничных сайта на конструкторе от Т-Банка, настроены формы и уведомления в ТГ. <br>
 Запущена реклама Я.Директ с результатами:<br>
 <a href="https://auto-vykup-nn.ru/">auto-vykup-nn.ru</a>:
 <p align="center">
   <img width="800px" src="https://github.com/Olegvin2001/Olegvin2001/blob/main/.github/images/directArtem.png" alt="Статистика Direct Артём" /> 
 </p>
 <br>
-<a href="https://auto-vykup-nn.ru/">auto-vykup-nn.ru</a>:
+<a href="https://autovykup-nn.ru/">autovykup-nn.ru</a>:
 <p align="center">
   <img width="800px" src="https://github.com/Olegvin2001/Olegvin2001/blob/main/.github/images/directSerg.png" alt="Статистика Direct Сергей" /> 
 </p>
