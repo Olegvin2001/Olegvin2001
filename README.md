@@ -107,6 +107,132 @@
   <details> 
     <summary><h3>💵 Коммерческий опыт</h3></summary>
 Тут когда нибудь будет инфа про мой опыт, но пока мне так в лом его писать
+
+Скрипт для автоматической генерации анонса у элементов, у которых он не заполнен. 
+
+```php
+<?$iblockId = 24;
+
+$arFilter = [
+    "ID" => 208600,
+    "IBLOCK_ID" => $iblockId,
+    "ACTIVE" => "Y",
+    "PREVIEW_TEXT" => false,
+];
+
+$arSelect = [
+    'ID',
+    'NAME',
+    'IBLOCK_ID',
+];
+
+$res = CIBlockElement::GetList(
+    ['ID' => 'ASC'],
+    $arFilter,
+    false,
+    false,
+    $arSelect
+);
+
+while ($item = $res->GetNext()) {
+
+
+    $props = [];
+    $propRes = CIBlockElement::GetProperty($iblockId, $item["ID"]);
+    while ($p = $propRes->Fetch()) {
+        $props[$p["CODE"]] = $p["VALUE"];
+    }
+
+
+    $POWER            = $props["POWER"];
+    $COLOR_TEMP     = $props["COLOR_TEMP"];
+    $WARRANTY         = $props["WARRANTY"];
+    $EXPIRATION_DATE = $props["EXPIRATION_DATE"];
+    $IP_CLASS         = $props["IP_CLASS"];
+    $LIGHT_PUSLE     = $props["LIGHT_PUSLE"];
+    $BRAND            = $props["BRAND"];
+
+    if (!empty($POWER)) {
+        $cleanPower = preg_replace('/[^0-9.]/u', '', $POWER);
+        $POWER = $cleanPower;
+    }
+
+    if (!empty($EXPIRATION_DATE)) {
+        if (preg_match('/\d.+/u', $EXPIRATION_DATE, $m)) {
+            $EXPIRATION_DATE = trim($m[0]);
+        } else {
+            $EXPIRATION_DATE = '';
+        }
+    }
+
+    // Формирование PREVIEW TEXT
+    $text = '';
+
+    $text .= $item["NAME"] . " - световой прибор "
+        . (!empty($POWER) ? "мощностью {$POWER} Вт " : "")
+        . "для вашего пространства. Он создаёт освещение"
+        . (!empty($COLOR_TEMP) ? " с цветовой температурой {$COLOR_TEMP}" : "")
+        . ", подходящее для любых задач! Гарантия "
+        . (!empty($WARRANTY) ? "{$WARRANTY} " : "")
+        . "и срок службы "
+        . (!empty($EXPIRATION_DATE) ? "до {$EXPIRATION_DATE}" : "")
+        . " подтверждают его долговечность"
+        . ".\n";
+
+    $text .= "Из-за высокой степени защиты";
+    if (!empty($IP_CLASS)) {
+        $text .= "IP{$IP_CLASS}, этот световой прибор обеспечивает надежность "
+            . ($IP_CLASS > 44
+                ? "на улице и в производственных помещениях."
+                : "в жилых и рабочих зонах, где нет прямого попадания брызг воды.")
+            ;
+    } else {
+        $text .= " этот световой прибор защищен от пыли и влаги.";
+    }
+
+    $text .= " Модель отличается высоким качеством света"
+        . (!empty($LIGHT_PUSLE) ? " с низким коэффициентом пульсации {$LIGHT_PUSLE}" : "")
+        . ", что безопасно для глаз.\n\n";
+
+    $text .= "Вся продукция "
+        . (!empty($BRAND)
+            ? "бренда {$BRAND} "
+            : "этого бренда "
+        )
+        . "- гарантия качества.";
+
+
+    $el = new CIBlockElement();
+    $el->Update($item["ID"], [
+        "PREVIEW_TEXT" => $text,
+        "PREVIEW_TEXT_TYPE" => "text"
+    ]);
+
+    echo "Updated element ID: {$item["ID"]}<br>";
+}
+```
+
+Настройка title для элементов, в зависимости от наличия типа цен. У всех элементов стоит маска из ИБ.
+
+```PHP
+// REPLACE OPT PRICE IN TITLE
+$position_title = strpos($arResult['IPROPERTY_VALUES']['ELEMENT_META_TITLE'], 'по цене от ');
+if ($position_title !== false) {
+    $optPrice = $arResult['PROPERTIES']['OPT_PRICE']['VALUE'] ?? null;
+    $regularPrice = $arResult['ITEM_PRICES'][0]['PRICE'] ?? null;
+    
+    if (!empty($optPrice) && $optPrice > 0) {
+        $arResult['META_TAGS']['BROWSER_TITLE'] = str_replace('по цене от ', 'по цене от ' . $optPrice, $arResult['IPROPERTY_VALUES']['ELEMENT_META_TITLE']);
+    }
+    elseif (!empty($regularPrice) && $regularPrice > 0) {
+        $arResult['META_TAGS']['BROWSER_TITLE'] = str_replace('по цене от ','по цене от ' . $regularPrice,$arResult['IPROPERTY_VALUES']['ELEMENT_META_TITLE']);
+    }    
+	  else {
+        $arResult['META_TAGS']['BROWSER_TITLE'] = str_replace('по цене от ','по оптовой цене',$arResult['IPROPERTY_VALUES']['ELEMENT_META_TITLE']);
+    }
+}
+```
+
   </details>
   <details> 
     <summary>
