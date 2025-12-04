@@ -674,7 +674,7 @@ SEO:
 Ознакомиться с работой прототипа можно по ссылке на RuTube:
 <p align="center">
 	<a href="https://rutube.ru/video/private/22aa96062e0a613e67d1de708296c811/?p=pMeJK7O9dR-pCmntHsiVjA">
-    	<img width="500px" src="https://github.com/Olegvin2001/Olegvin2001/blob/main/.github/images/msk.png"/>
+    	<img width="400px" src="https://github.com/Olegvin2001/Olegvin2001/blob/main/.github/images/rutube.png"/>
 	</a>
 </p>
 
