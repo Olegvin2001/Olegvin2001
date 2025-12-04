@@ -116,7 +116,7 @@
 - Создание структуры сайтов, каталогов;
 - Создание разделов, внутренних страниц;
 - Разработка на PHP с использованием Bitrix API: выборки данных Getlist для получения списка элементов ИБ (CIBlockElement), разделов (CIBlockSection), свойств (CIBlockProperty) и т.д. Работал как на старом ядре, так и на D7;
-- Внедрение микроразметок OpenGraph и Schema.org (в формате как и Json, так и microdata): product, localbuznis, bred, navigation, header, footer.
+- Внедрение микроразметок OpenGraph и Schema.org (в формате как и Json, так и microdata): product, organization, Breadcrumbs, SiteNavigationElement, WPheader, WPfooter.
 - Редизайн, адаптация под мобилки.
 - Опыт работы с JS
 
@@ -232,8 +232,8 @@ while ($item = $res->GetNext()) {
 
 Техническая оптимизация сайтов:
 - Настраивал теги canonical у всех страниц сайтов с исключением GET параметров;
-- Работа с .htaccessec: общие 301-редиректы, редиректы на актуальные страницы;
-- Настройка файлов sitemap и robots.txt;
+- Работа с .htaccess: общие 301-редиректы, редиректы на актуальные страницы;
+- Настройка файлов sitemap.xml и robots.txt;
 - Создание HTML- карты сайта и посадочных страниц для продвижения
 - Настройка ЧПУ
 - Корректировка мета-тегов, как ручные настройки через resault_modifer, так и по маскам через SEO модули.
